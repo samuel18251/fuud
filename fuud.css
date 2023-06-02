@@ -1,0 +1,672 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	width:100%;
+	font-weight: 600;
+	max-height: 100vh;
+	background-color:  #FFFFFF;
+	font-family: "Raleway", sans-serif;
+}
+
+
+
+.main > ul{
+	height: 35px;
+	display: flex;
+	color: white;
+	list-style: none;
+	padding-top: 6px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-style: normal;
+	background-color: green;
+	font-family: sans-serif;
+	justify-content: space-evenly;
+	box-shadow: 8px 2px 4px 3px #888888;
+}
+
+
+.fuud-store{
+	gap:15px;
+	width:80%;
+	display:flex;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/*box-shadow: 0 1px 2px 3px #888888;*/
+
+.fuud-bar{
+	height:45px;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius:8px;
+	display:inline-flex;
+	align-items: center;
+	border: 1px solid #EFEFEF;
+	background-color:  #FFFFFF;
+	justify-content: space-between;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+ span > div{
+  width: 30px;
+  height: 3px;
+  margin: 8px 0;
+  background-color: black;
+  justify-content: space-around;
+}
+
+.search{
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+input{
+	width:260px;
+	height:25px;
+	border: none;
+	margin-left: 5px;
+	border-radius: 8px;
+	background-color: #F3B127;
+}
+
+/*will edit this later becus it is for media query*/
+div > input[type="text"] {
+    
+	text-align: center;
+	width:250%;
+	height:25px;
+	border-radius: 5px;
+	border: 1px solid #EFEFEF;
+	background-color: #FFFFFF;
+}
+
+.log > button{
+	color:#FFFFFF;
+	width: 60px;
+	height:25px;
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	background-color: #136429;
+}
+
+.shopp{
+	height:375px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.shopp > div{
+	width:20%;
+	border: 2px;
+	border-radius: 8%;
+}
+
+
+div:nth-child(2) > div > ul{
+	height:100%;
+	list-style: none;
+	padding-top: 10%;
+	padding-left: 20%;
+	padding-bottom: 10%;
+	border-radius: 2%;
+	background-color:#FFFFFF;
+	box-shadow: 3px 3px 3px 3px #888888;
+
+}
+
+div:nth-child(2) > div > ul > li{
+	padding-top: 8%;
+}
+
+
+.shopp > .fuud-shopp{
+	width:50%;
+	border: 2px;
+	color: #FFFFFF;
+	height:375px;
+	padding-top: 13%;
+	border-radius: 8px;
+	text-align: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px 2px #888888;
+	background-image: url("./Rectangle.svg");
+}
+
+.shopp > .fuud-shopp > h1{
+	font-weight: 400;
+	font-family: "Rock Salt";
+}
+
+.shopp > .two-step{
+	border:none;
+	background-color: none;
+	justify-content: space-between;
+}
+
+.first-step{
+	height:48%;
+	border-radius: 8px;
+	list-style: none;
+	border: 2px solid black;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.first-step > ul{
+	list-style: none;	
+}
+
+.first-step > ul > li{
+	margin-top: 12%;	
+	margin-left: 10%;
+}
+
+.employee{
+	height:48%;
+	color:#FFFFFF;
+	margin-top: 5%;
+	font-size:10px;
+	border-radius: 8px;
+	border: 2px solid black;
+    background-size: contain;
+    background-color: #0F9029;
+    background-repeat: no-repeat;
+	background-image: url("./boy.svg");
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+
+.fuud-tag{
+	height:85px;
+	display:flex;
+	font-size: 15px;
+	padding-top: 15px;
+	border-radius: 8px;
+	background-color: white;
+	justify-content: space-around;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.fuud-tag > div > p{
+	 color:#8D9091;
+}
+
+.popular-products{
+	height:430px;
+	font-size: 16px;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	text-align: center;
+	background-color:#FFFFFF;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.popular-products > div{
+	width:100%;	
+	height: 100%;
+	padding-bottom:5%;
+	display:inline-flex;
+	justify-content: space-between;
+}
+
+.popular-products > div >div{
+	width:50%;
+	height: 100%;
+	display:flex;
+	justify-content: space-evenly;
+}
+
+
+.popular-products > div > div> .popular-products-product{
+	width:40%;
+	height: 95%;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-radius: 5px;
+	padding-bottom: 3%;
+	background-color:white;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.popular-products > div > div > .popular-products-product > .cabbage-pic{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./cabbage.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .brown-pic{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./rice.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .irish-pic{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url("./potato.svg");
+}
+
+.popular-products > div > div > .popular-products-product >.ice-pic{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url("./fish.svg");
+}
+
+
+fieldset {
+  width: 90%;
+  height:50px;
+  margin-left: 5%;
+  grid-area: 1 / 1; 
+  padding-top: 10px;
+  border-radius: 5px;
+  padding-right:25px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid black; 
+}
+
+legend {
+  margin: auto;  
+  padding: 0 4px; 
+  font: 15px 'Averia Serif Libre'; 
+}
+
+.amount{
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.amount .percent{
+	width: 45px;
+	height:15%;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+button{
+	width:65%;
+	height:15%;
+	border:0px;
+	color:#FFFFFF;
+	font-weight: 600;
+	font-style: normal;
+	border-radius: 5px;
+	background-color:#0F9029; 
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro';
+}
+
+/*not yet finished*/
+.shop-at-fuud-store{
+	width:100%;
+	height:150px;
+	box-shadow: 5px;
+	color:#0F9029;
+	margin-bottom:15px;
+	background-color: white;
+	font-family: "Rock Salt"; 
+	box-shadow: 0 3px 3px #888888;
+}
+
+/**/
+
+.popular-products > div > div > .popular-products-product > .live-chicken{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./rooster.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .pullet{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-image: url("./live chicken.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .drum-stick{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./chicken.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .frozen{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./whole-chicken.svg");
+}
+
+/*card*/
+.niv{
+	height:330px;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	text-align: center;
+	background-color:#FFFFFF;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.niv > div{
+	/*align-items: middle;*/
+	display: flex;
+	margin-top: 5%;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.customer-card{
+	width:35%;
+	height: 95%;
+	box-shadow: 6px;
+	padding-left: 18px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.customer-card .lor{
+	font-size: 12px;
+	line-height: 5px;
+	font-stretch: condensed;
+}
+
+.customer-card-two{
+	width:35%;
+	height: 90%;
+	box-shadow: 6px;
+	padding-left: 18px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 3px 3px #888888;	
+}
+
+.customer-card-two .lor{
+	font-size: 12px;
+	line-height: 5px;
+	font-stretch: condensed;
+}
+
+/*=======================================*/
+.popular-products > div > div > .popular-products-product > .maggi{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./maggi.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .grounded-pepper{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./grounded-pepper.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .cray-fish{
+	width:100%;
+	height: 150px;
+    border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./cray-fish.svg");
+}
+
+.popular-products > div > div > .popular-products-product > .ginger{
+	width:100%;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./ginger.svg");
+}
+
+/*==============================*/
+
+.products-cats{
+	height:200px;
+	display:flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+.products-cats .personal-card{
+	display: flex;
+	justify-content: space-between;
+}
+
+.products-cats .personal-card .vege{
+	width:24%;
+	height:110px;
+	display: inherit;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 3px 3px #888888;
+}
+
+
+.products-cats .personal-card .vege .vegetable{
+	width:45%;
+	height:110px;
+	border-radius: 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("./veg.svg");
+}
+
+.products-cats .personal-card .grains{
+	width:24%;
+	height:110px;
+	display: inherit;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.products-cats .personal-card .grains .grain-seeds{
+	width:45%;
+	height:110px;
+	border-radius: 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("./grain.svg");
+}
+
+.products-cats .personal-card .tubes{
+	width:24%;
+	height:110px;
+	display: inherit;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.products-cats .personal-card .tubes .tubers{
+	width:45%;
+	height:110px;
+	border-radius: 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("./tubers.svg");
+}
+
+.products-cats .personal-card .ice-fish{
+	width:24%;
+	height:110px;
+	display: inherit;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 3px 3px #888888;
+}
+
+.products-cats .personal-card .ice-fish .ice-fih{
+	width:45%;
+	height:110px;
+	border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./fishe.svg");
+}
+
+/*=======================================================*/
+
+.bottom-card{
+	width:75%;
+	height:150px;
+	margin-left: 12.5%;
+	margin-bottom: 2px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 4px 3px 3px 3px #888888;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	nav{
+		display:none;
+	}
+
+	.shopp > div:nth-child(1){
+	display: none;
+	}
+
+	.shopp > .fuud-shopp{
+		width:470px;
+		
+	}
+
+	.two-step > div{
+		display: none;
+	}
+
+	.fuud-tag{
+	display:flex;
+	height:200px;
+	margin-top: 5%;
+	font-size: 10px;
+	padding-left: 10%;
+	border-radius: 8px;
+	padding-bottom: 15px;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	justify-content: space-around;
+	box-shadow: 0 3px 3px #888888;
+	}
+
+	.popular-products{
+		height: 100%;
+		display: grid;
+	}
+
+	.popular-products > div > div {
+		width:100%;
+		height:100%;
+		display: grid;
+	}
+
+	.popular-products > div > div > .popular-products-product{
+		width: 10em;
+	}
+
+	.popular-products > div > div > div > button{
+		height:10%;
+		font-size: 10px;
+		margin-bottom:25%;
+	}
+
+
+	legend{
+		font-size: 15px;
+	}
+
+	.niv {
+		height:280px;
+	}
+
+	.niv > div > div:nth-child(1){
+		width:90%;
+		height:100%;
+		text-align: left;
+	}
+
+	.niv > div > div:nth-child(2){
+		display:none;
+	}
+
+	.products-cats{
+		width:470px;
+		height:510px;
+	}
+
+	.products-cats > div{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.products-cats .personal-card .card{
+		width:100%;
+		height:110px;
+		text-align: left;
+		margin-bottom: 1.5%;
+	}
+
+}
